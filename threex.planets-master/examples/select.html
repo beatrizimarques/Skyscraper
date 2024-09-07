@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planets</title>
+  <link rel="shortcut icon" href="../../favicon.ico.ico" type="image/x-icon">
+  <title>Skyscraper - Observatório</title>
   <style>
-    /* Centraliza o conteúdo na tela e ajusta o layout */
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body, html {
       margin: 0;
       padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      width: 100%;
+      height: 99vh;
       background-color: #000;
     }
-
-    /* Estiliza os botões */
     .button-container {
       position: absolute;
       top: 20px;
@@ -63,7 +69,6 @@
   </style>
 </head>
 <body>
-  <!-- Container para os botões -->
   <div class="button-container">
     <button onclick='switchValue("Sun")'>Sun</button>
     <button onclick='switchValue("Mercury")'>Mercury</button>
