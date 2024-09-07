@@ -1,0 +1,78 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    color: #DDD;
+    font-family: "Lexend Zetta", Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    font-family: "Lexend Zetta", Arial, Helvetica, sans-serif;
+}
+
+.logo-container {
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container>img {
+    width: inherit;
+    max-width: 50%;
+    min-width: 400px;
+}
+
+.inferior-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inferior-container>section {
+    width: 50%;
+    min-width: 100px;
+    max-width: 400px;
+    margin: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.inferior-container a {
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+}
+
+.inferior-container a:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.social-media-container>img {
+    margin: 0px 5px;
+}
+
+.rights {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .inferior-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .inferior-container>section {
+        min-width: 100%;
+        margin: 50px 0px;
+    }
+}
