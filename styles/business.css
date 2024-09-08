@@ -254,14 +254,9 @@ section{
 }
 #container-texto {
     margin: auto;
-    margin-bottom: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
-    height: 2vh;
-    padding: 30px;
-    border-radius: 24px;
+    justify-content: flex-end;
+    align-items: flex-start;
     align-items: center;
 }
 
@@ -271,7 +266,7 @@ section{
     font-family: Saira;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     line-height: normal;
 }
 
@@ -306,7 +301,9 @@ section{
     height: 5vh;
     border-radius: 0 0 10px 10px;
     border: 1px solid white;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: saira;
+    font-weight: bold;
 }
 
 .botaoComprar:hover{
@@ -330,6 +327,8 @@ section{
         height: auto;
         width: 90vw;
         margin-top: 300px;
+        font-family: saira;
+        font-weight: bold;
     }
 
     .logo-container{
